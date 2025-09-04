@@ -651,7 +651,6 @@ ul {
 }
 
 .testimonials-grid {
-
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
@@ -1306,45 +1305,4 @@ ul {
 
 .telegram-card i {
   color: #0088cc;
-}
-
-/* Pricing Card Background Images */
-.crunch-lite-bg {
-  background: linear-gradient(rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.85)),
-    url("img/Pricing Plans/Crunch Lite.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.crunch-pro-bg {
-  background: linear-gradient(rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.85)),
-    url("img/Pricing Plans/Crunch Pro.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.falcon-bg {
-  background: linear-gradient(rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.85)),
-    url("img/Pricing Plans/Falcon Pro.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.hulk-bg {
-  background: linear-gradient(rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.85)),
-    url("img/Pricing Plans/Hulk الألماني.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.smarters-bg {
-  background: linear-gradient(rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.85)),
-    url("img/Pricing Plans/Smarters Pro.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
