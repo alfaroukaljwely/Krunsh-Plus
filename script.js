@@ -115,7 +115,36 @@ function updateCountdown() {
   }
 }
 
+// Back to Top Button Functionality
+const backToTopButton = document.getElementById('backToTop');
+
+function toggleBackToTopButton() {
+  if (window.pageYOffset > 300) {
+    backToTopButton.classList.add('show');
+  } else {
+    backToTopButton.classList.remove('show');
+  }
+}
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
+window.addEventListener('scroll', toggleBackToTopButton);
+backToTopButton.addEventListener('click', scrollToTop);
+
 window.addEventListener("load", () => {
+  // Initialize countdown timer with a 4-day countdown
+  const countdownContainer = document.querySelector(".cta-timer");
+  if (countdownContainer && !countdownContainer.getAttribute("data-countdown-date")) {
+    const fourDaysMs = 4 * 24 * 60 * 60 * 1000;
+    const targetDate = new Date(Date.now() + fourDaysMs);
+    countdownContainer.setAttribute("data-countdown-date", targetDate.toISOString());
+  }
+  
   updateCountdown();
   setInterval(updateCountdown, 1000);
 });

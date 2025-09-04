@@ -285,9 +285,9 @@
       <!-- Mid CTA -->
       <section class="cta cta-dark" id="cta">
         <div class="cta-container">
-          <h2 class="cta-title" data-aos="fade-up">جاهز تبدأ متعة المشاهدة؟</h2>
+          <h2 class="cta-title" data-aos="fade-up">احصل على تجربة Fast premium الآن</h2>
           <p class="cta-text" data-aos="fade-up" data-aos-delay="100">
-            اشترك الآن وخلك دائمًا جاهز لمبارياتك وبرامجك المفضلة
+            استمتع بمشاهدة محتوى يتفوق بدون إعلانات وجودات حصرية
           </p>
           <a
             href="#pricing"
@@ -296,6 +296,27 @@
             data-aos-delay="150"
             >اشترك الآن</a
           >
+          <div class="cta-timer" data-countdown-date="" data-aos="fade-up" data-aos-delay="200">
+            <p>باقي العرض خلال</p>
+            <div class="countdown">
+              <div class="countdown-item">
+                <span id="days">15</span>
+                <span class="countdown-label">أيام</span>
+              </div>
+              <div class="countdown-item">
+                <span id="hours">47</span>
+                <span class="countdown-label">ساعة</span>
+              </div>
+              <div class="countdown-item">
+                <span id="minutes">06</span>
+                <span class="countdown-label">دقيقة</span>
+              </div>
+              <div class="countdown-item">
+                <span id="seconds">10</span>
+                <span class="countdown-label">ثانية</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -475,19 +496,20 @@
             </div>
             <div class="footer-contact" data-aos="fade-up" data-aos-delay="150">
               <h4>تواصل معنا</h4>
-              <p>
+              <div class="contact-cards">
                 <a
                   href="https://wa.me/966581725285"
                   target="_blank"
-                  class="whatsapp-link"
-                  ><i class="fa-brands fa-whatsapp"></i> واتساب</a
+                  class="contact-card whatsapp-card"
                 >
-              </p>
-              <p>
-                <a href="https://t.me/" target="_blank" class="telegram-link"
-                  ><i class="fa-brands fa-telegram"></i> تيليجرام</a
-                >
-              </p>
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <span>واتساب</span>
+                </a>
+                <a href="https://t.me/" target="_blank" class="contact-card telegram-card">
+                  <i class="fa-brands fa-telegram"></i>
+                  <span>تيليجرام</span>
+                </a>
+              </div>
             </div>
           </div>
           <div class="footer-bottom">
@@ -498,6 +520,11 @@
         </div>
       </footer>
     </main>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="العودة للأعلى">
+      <i class="fas fa-chevron-up"></i>
+    </button>
 
     <script src="script.js"></script>
   </body>
