@@ -168,13 +168,11 @@ project/
 │   ├── style.css
 │   └── responsive.css
 ├── js/
-│   ├── main.js
-│   └── animations.js
+│   └── main.js
 ├── images/
 │   ├── hero-banner.jpg
-│   ├── features/
-│   ├── packages/
-│   └── icons/
+│   ├── payment methods/
+│   └── packages/
 └── fonts/
 ```
 
