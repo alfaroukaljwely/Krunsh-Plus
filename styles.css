@@ -49,7 +49,6 @@ ul {
   border-radius: 2px;
 }
 
-
 /* Hero Section */
 .top-bar {
   background: linear-gradient(
@@ -70,16 +69,14 @@ ul {
 
 .hero {
   position: relative;
-  background: 
-    linear-gradient(rgba(11, 15, 26, 0.7), rgba(15, 23, 42, 0.7)),
-    url('img/Hero baner.jpeg');
+  background: linear-gradient(rgba(11, 15, 26, 0.7), rgba(15, 23, 42, 0.7)),
+    url("img/Hero baner.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: #e5e7eb;
   overflow: hidden;
 }
-
 
 .brand-logo {
   width: 80px;
@@ -125,7 +122,11 @@ ul {
 }
 
 .cta-primary {
-  background: linear-gradient(135deg, rgba(124, 58, 237, 0.8), rgba(45, 212, 191, 0.8));
+  background: linear-gradient(
+    135deg,
+    rgba(124, 58, 237, 0.8),
+    rgba(45, 212, 191, 0.8)
+  );
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #ffffff;
@@ -143,7 +144,11 @@ ul {
 }
 
 .cta-primary:hover {
-  background: linear-gradient(135deg, rgba(124, 58, 237, 0.9), rgba(45, 212, 191, 0.9));
+  background: linear-gradient(
+    135deg,
+    rgba(124, 58, 237, 0.9),
+    rgba(45, 212, 191, 0.9)
+  );
   transform: translateY(-3px);
   box-shadow: 0 12px 30px rgba(124, 58, 237, 0.45);
   border-color: rgba(255, 255, 255, 0.3);
@@ -273,7 +278,6 @@ ul {
   padding: 5rem 1rem;
   position: relative;
 }
-
 
 .pricing-cards {
   display: grid;
@@ -465,7 +469,6 @@ ul {
   overflow: hidden;
 }
 
-
 .features-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -559,7 +562,6 @@ ul {
   overflow: hidden;
 }
 
-
 .why-us-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -630,7 +632,6 @@ ul {
   position: relative;
   overflow: hidden;
 }
-
 
 .testimonials-container {
   max-width: 1200px;
@@ -757,7 +758,6 @@ ul {
   background: linear-gradient(135deg, #0b1220, #0f172a);
 }
 
-
 .cta-container {
   max-width: 800px;
   margin: 0 auto;
@@ -817,21 +817,30 @@ ul {
 }
 
 .countdown-item {
-  background-color: rgba(139, 0, 0, 0.8);
+  background: linear-gradient(
+    135deg,
+    rgba(45, 212, 191, 0.8),
+    rgba(124, 58, 237, 0.8)
+  );
+  backdrop-filter: blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.3);
   padding: 1.25rem 1rem;
   border-radius: 0.75rem;
-  min-width: 90px;
   text-align: center;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  min-width: 100px;
+  box-shadow: 0 8px 20px rgba(45, 212, 191, 0.2);
   transition: all 0.3s ease;
 }
 
 .countdown-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
-  background-color: rgba(139, 0, 0, 0.9);
+  box-shadow: 0 12px 25px rgba(45, 212, 191, 0.3);
+  background: linear-gradient(
+    135deg,
+    rgba(45, 212, 191, 0.9),
+    rgba(124, 58, 237, 0.9)
+  );
+  border-color: rgba(255, 255, 255, 0.4);
 }
 
 .countdown-item span {
@@ -857,9 +866,8 @@ ul {
 
 /* Footer */
 .footer {
-  background: 
-    linear-gradient(rgba(11, 15, 26, 0.9), rgba(11, 15, 26, 0.9)),
-    url('img/contact_bg.png');
+  background: linear-gradient(rgba(11, 15, 26, 0.9), rgba(11, 15, 26, 0.9)),
+    url("img/contact_bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -874,7 +882,6 @@ ul {
   opacity: 0.9;
   margin-bottom: 0.5rem;
 }
-
 
 .footer-container {
   max-width: 1200px;
@@ -1101,8 +1108,6 @@ ul {
   transform: perspective(2500px) rotateX(0);
 }
 
-
-
 /* Responsive Styles */
 @media (min-width: 768px) {
   .hero-container {
@@ -1293,4 +1298,43 @@ ul {
   color: #0088cc;
 }
 
+/* Pricing Card Background Images */
+.crunch-lite-bg {
+  background: linear-gradient(rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.85)),
+    url("img/Pricing Plans/Crunch Lite.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.crunch-pro-bg {
+  background: linear-gradient(rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.85)),
+    url("img/Pricing Plans/Crunch Pro.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.falcon-bg {
+  background: linear-gradient(rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.85)),
+    url("img/Pricing Plans/Falcon Pro.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hulk-bg {
+  background: linear-gradient(rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.85)),
+    url("img/Pricing Plans/Hulk الألماني.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.smarters-bg {
+  background: linear-gradient(rgba(17, 24, 39, 0.85), rgba(17, 24, 39, 0.85)),
+    url("img/Pricing Plans/Smarters Pro.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
